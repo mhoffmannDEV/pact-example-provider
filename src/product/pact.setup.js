@@ -23,7 +23,7 @@ const setupServer = () => {
 const stateHandlers = {
   "products exists": () => {
     controller.repository.products = new Map([
-      ["10", new Product("10", "CREDIT_CARD", "28 Degrees", "v1", "mock alias")],
+      ["10", new Product("10", "CREDIT_CARD", "28 Degrees", "v1")],
     ]);
   },
   "products exist": () => {
